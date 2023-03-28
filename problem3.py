@@ -24,4 +24,17 @@ Enter an integer:-1
 The largest number you entered is 92
 """
 
+z=input("Enter an integer")
+x=input("Enter an integer")
+c=input("Enter an integer")
+v=input("Enter an integer")
+b=input("Enter an integer")
+n=input("Enter an integer")
+m=input("Enter an integer")
+a=input("Enter an integer")
+s=input("Enter an integer")
+d=input("Enter an integer")
 
+list=[z,x,c,v,b,n,m,a,s,d]
+q=max(list)
+print(f"The largest number you entered is {q}")

@@ -23,5 +23,7 @@ The animal at that index is Dog
 """
 
 
-
-animals =
+y=input("Enter the index for an animal: ")
+y=int(y)
+animals = ["cat", "fish", "dog", "bear", "turtle"]
+print(f"The animal at that index is {animals[y]}")

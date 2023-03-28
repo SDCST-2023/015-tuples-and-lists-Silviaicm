@@ -25,4 +25,13 @@ word not in list
 """
 
 fruit = ["apple","cherry","kiwi","apple","banana","strawberry","kiwi","blueberry","kiwi"]
+print(fruit)
+x=input("Pick a word from the list: ")
+z=fruit.index(x)
+fruit.remove(z,x)
+print(fruit)
 
+need to use something like
+for x in fruit:
+    fruit.remove(x)
+    print(fruit)
